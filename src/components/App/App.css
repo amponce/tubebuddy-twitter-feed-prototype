@@ -42,15 +42,38 @@ body {
     box-shadow: #bdc3c7 0 0px 5px;
     position: relative;
 }
+.handle:hover{
+    color: #ff2222;
+
+}
 
 .icon-twitter {
     font-size: 1.5em;
+}
+
+.toggle{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    color:#ff2222;
+}
+.toggle:hover{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    color:#000;
 }
 
 .new {
     position: absolute;
     right: 5%;
     top: 40%;
+}
+.new:hover {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    color:#ff2222;
 }
 
 .notification {
@@ -209,7 +232,7 @@ body {
     opacity: 0;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 99;
     -webkit-transition-property: all;
     -moz-transition-property: all;
     -o-transition-property: all;
@@ -247,6 +270,7 @@ body {
     opacity: 1;
     top: 0px;
     right: 1em;
+    z-index:100;
     display: block;
     background-color: #16a085;
     padding: 4px;
@@ -265,6 +289,10 @@ body {
     display: block;
     font-size: 1.2em;
 }
+.retweet .icon-retweet:hover {
+    color: #EEE;
+}
+
 
 .icon-star {
     -webkit-transition-property: all;

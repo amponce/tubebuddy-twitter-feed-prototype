@@ -2,7 +2,7 @@
 TubeBuddy JSON, AXIOS, REACT
 
 
-This project is a working prototype and is currently deployed on Heroku [DEMO](https://tubebuddy-notify.herokuapp.com/)
+This project is a working prototype in progress. A Demo is currently deployed on Heroku [DEMO](https://tubebuddy-notify.herokuapp.com/)
 
 
 ### clone the repo:
@@ -23,7 +23,8 @@ This project is a working prototype and is currently deployed on Heroku [DEMO](h
 ### Start the APP
 `npm start`
 
+### App Screenshot
 
-#### (Demo) https://tubebuddy-notify.herokuapp.com/ 
+![Tubebuddy Twitter Prototype](https://github.com/amponce/TubeBuddy_JSON/blob/master/Screenshots/tubebuddy.jpg)  
 
-![Tubebuddy Twitter Prototype](https://github.com/amponce/TubeBuddy_JSON/blob/master/Screenshots/tubebuddy-notify.png)  * Best viewed on desktop | (currently this is not a mobile prototype) 
+* Best viewed on desktop | (currently this is not a mobile prototype) 

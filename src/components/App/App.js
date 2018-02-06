@@ -22,7 +22,8 @@ class App extends Component {
     return (
       <span class={style.app}>
         <span class="header">
-          @tubebuddy
+          <span class="handle">@tubebuddy</span>
+          <span class="icon-twitter toggle" />
           <span class="icon-edit new" />
         </span>
         <ul class="notification">
@@ -42,6 +43,7 @@ class App extends Component {
                   <p class="username">{tweet.Name}</p>
                   <span class="title">@{tweet.Handle}</span> retweeted <span class="title">@andrew</span>
                    <br /><span class="text">{tweet.Text}</span>
+                   {/* <br /><span class="text">{tweet.Date}</span> */}
                   <div class="actions">
                     <div class="icon-mail-reply action" />
                     <div class="icon-retweet action" />
