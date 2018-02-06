@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://localhost:3004/Twitter`).then(res => {
+    axios.get(`https://tubebuddy-notify.herokuapp.com:4000/Twitter`).then(res => {
       const tweets = res.data;
       this.setState({ tweets });
     });
