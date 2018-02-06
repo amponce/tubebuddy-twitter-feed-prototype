@@ -1,6 +1,6 @@
 export default {
     "production": {
-        "api" : "https://tubebuddy-notify.herokuapp.com:4000"
+        "api" : "https://tubebuddy-json-api.herokuapp.com/twitter"
     },
     "dev": {
         "api": "http://localhost:3004"
