@@ -89,6 +89,7 @@ body {
     position: relative;
     overflow: hidden;
     margin-left: 2%;
+    margin-top:10px
 }
 
 .profile img {
@@ -320,11 +321,13 @@ h3 {
 @media screen and  (max-width: 565px) { 
     .profile {
             width: 23%;
-            display: inline-block;
-            vertical-align: center;
-            position: relative;
-            overflow: hidden;
-            margin-left: -3%;
-            margin-top: 50px;
+            margin-top: 15px;
+        }
+    }
+
+@media screen and  (max-width: 400px) { 
+    .profile {
+            width: 23%;
+            margin-top: 40px;
         }
     }
