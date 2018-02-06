@@ -1,0 +1,35 @@
+{
+  "name": "tubebuddy-jsonserver",
+  "version": "1.0.0",
+  "description": "Prototype for TubeBuddy twitter card layout",
+  "author": "Aaron Ponce",
+  "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
+    "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug",
+    "api": "json-server server/server.js --port 3004"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.5",
+    "style-loader": "^0.20.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "json-server": "^0.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.0.0",
+    "react-modal": "^3.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.0",
+    "shortid": "^2.2.8",
+    "webpack": "^3.10.0"
+  }
+}
