@@ -95,7 +95,6 @@ body {
     display: flex;  
     align-content: center;
     width: 100%;
-
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -104,6 +103,7 @@ body {
     border: 5px solid #ecf0f1;
     position: relative;
 }
+
 
 .profile:hover>.hover {
     cursor: pointer;
@@ -315,3 +315,16 @@ h3 {
     cursor: pointer;
     color: #3498db;
 }
+
+
+@media screen and  (max-width: 565px) { 
+    .profile {
+            width: 23%;
+            display: inline-block;
+            vertical-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-left: -3%;
+            margin-top: 50px;
+        }
+    }
