@@ -21,32 +21,32 @@ class App extends Component {
 
   render() {
     return (
-      <span className={style.app}>
-        <span className="header">
+      <span class={style.app}>
+        <span class="header">
           @tubebuddy
-          <span className="icon-edit new" />
+          <span class="icon-edit new" />
         </span>
-        <ul className="notification">
+        <ul class="notification">
           {this.state.tweets.map(tweet => (
             <li key={shortid.generate()}>
-              <div className="profile">
+              <div class="profile">
                 <img src={tweet.ThumbnailUrl} alt="profile" />
-                <div classaName="hover">
-                  <div className="icon-twitter" />
+                <div class="hover">
+                  <div class="icon-twitter" />
                 </div>
               </div>
-              <div className="feed">
-                <div className="content">
-                  <div className="retweet">
-                    <div className="icon-retweet" />
+              <div class="feed">
+                <div class="content">
+                  <div class="retweet">
+                    <div class="icon-retweet" />
                   </div>
                   <h3>@{tweet.Handle}</h3> retweeted <h3>@andrew</h3>
                   <br />
                   {tweet.Text}
-                  <div className="actions">
-                    <div className="icon-mail-reply action" />
-                    <div className="icon-retweet action" />
-                    <div className="icon-star action" />
+                  <div class="actions">
+                    <div class="icon-mail-reply action" />
+                    <div class="icon-retweet action" />
+                    <div class="icon-star action" />
                   </div>
                 </div>
               </div>
