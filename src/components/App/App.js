@@ -10,7 +10,7 @@ class App extends Component {
       tweets: []
     };
   }
-  
+
 
   componentDidMount() {
     axios.get(`https://tubebuddy-json-api.herokuapp.com/twitter`).then(res => {
@@ -22,34 +22,33 @@ class App extends Component {
   render() {
     return (
       <span className={style.app}>
-        <span className="first">
+        <span className="header">
           @tubebuddy
           <span className="icon-edit new" />
         </span>
-        <ul className="timeline">
+        <ul className="notification">
           {this.state.tweets.map(tweet => (
             <li key={shortid.generate()}>
-              <div className="avatar">
-                <img src={tweet.ThumbnailUrl} alt="avatar" />
+              <div className="profile">
+                <img src={tweet.ThumbnailUrl} alt="profile" />
                 <div classaName="hover">
                   <div className="icon-twitter" />
                 </div>
               </div>
-              <div className="bubble-container">
-                <div className="bubble">
+              <div className="feed">
+                <div className="content">
                   <div className="retweet">
                     <div className="icon-retweet" />
                   </div>
-                  <h3>@{tweet.Handle}</h3> retweeted <h3>@doug</h3>
+                  <h3>@{tweet.Handle}</h3> retweeted <h3>@andrew</h3>
                   <br />
                   {tweet.Text}
-                  <div className="over-bubble">
+                  <div className="actions">
                     <div className="icon-mail-reply action" />
                     <div className="icon-retweet action" />
-                    <div className="icon-star" />
+                    <div className="icon-star action" />
                   </div>
                 </div>
-                {/* <div className="arrow" /> */}
               </div>
             </li>
           ))}
