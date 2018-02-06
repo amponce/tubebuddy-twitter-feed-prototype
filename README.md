@@ -2,29 +2,30 @@
 TubeBuddy JSON, AXIOS, REACT
 
 
-Be sure to have node and npm installed
+This project is a working prototype and is currently deployed on Heroku [DEMO](http://https://tubebuddy-notify.herokuapp.com/)
+
+## To set it up for yourself in a few simple steps.
 
 
-*clone the repo:
+### clone the repo:
 `git clone https://github.com/amponce/TubeBuddy_JSON.git`
 
 
 
-*CD into TubeBuddy_JSON
+### CD into TubeBuddy_JSON
 `cd TubeBuddy_JSON`
 
 
 
-
-Install node modules
+### Install node modules
 `npm install`
 
 
 
-
-Start the APP
+### Start the APP
 `npm start`
 
 
-(Demo) https://tubebuddy-notify.herokuapp.com/ 
+#### (Demo) https://tubebuddy-notify.herokuapp.com/ 
 
+![Tubebuddy Twitter Prototype](https://github.com/amponce/TubeBuddy_JSON/blob/master/Screenshots/tubebuddy-notify.png)
