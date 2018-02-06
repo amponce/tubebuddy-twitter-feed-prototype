@@ -2,7 +2,7 @@
 TubeBuddy JSON, AXIOS, REACT
 
 
-This project is a working prototype and is currently deployed on Heroku [DEMO](http://https://tubebuddy-notify.herokuapp.com/)
+This project is a working prototype and is currently deployed on Heroku [DEMO](https://tubebuddy-notify.herokuapp.com/)
 
 ## To set it up for yourself in a few simple steps.
 
