@@ -39,9 +39,9 @@ class App extends Component {
                   <div class="retweet">
                     <div class="icon-retweet" />
                   </div>
-                  <h3>@{tweet.Handle}</h3> retweeted <h3>@andrew</h3>
-                  <br />
-                  {tweet.Text}
+                  <p class="username">{tweet.Name}</p>
+                  <span class="title">@{tweet.Handle}</span> retweeted <span class="title">@andrew</span>
+                   <br />{tweet.Text} 
                   <div class="actions">
                     <div class="icon-mail-reply action" />
                     <div class="icon-retweet action" />
