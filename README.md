@@ -28,4 +28,4 @@ This project is a working prototype and is currently deployed on Heroku [DEMO](h
 
 #### (Demo) https://tubebuddy-notify.herokuapp.com/ 
 
-![Tubebuddy Twitter Prototype](https://github.com/amponce/TubeBuddy_JSON/blob/master/Screenshots/tubebuddy-notify.png)
+![Tubebuddy Twitter Prototype](https://github.com/amponce/TubeBuddy_JSON/blob/master/Screenshots/tubebuddy-notify.png)  * Best viewed on desktop | (currently this is not a mobile prototype) 
