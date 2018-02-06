@@ -10,7 +10,7 @@ class App extends Component {
       tweets: []
     };
   }
-  //http://localhost:3000/Twitter
+  //http://localhost:3004/Twitter 
   componentDidMount() {
     axios.get(`https://tubebuddy-json-api.herokuapp.com/twitter`).then(res => {
       const tweets = res.data;

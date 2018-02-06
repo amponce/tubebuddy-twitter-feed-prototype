@@ -11,7 +11,7 @@
     "eject": "react-scripts eject",
     "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
     "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug",
-    "api": "json-server server/server.js"
+    "api": "json-server server/server.js --port 3004"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
