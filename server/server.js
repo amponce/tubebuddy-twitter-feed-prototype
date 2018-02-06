@@ -3,7 +3,7 @@ module.exports = function() {
   var faker = require("faker");
   var _ = require("lodash");
   return {
-    Twitter: _.times(5, function(n) {
+    Twitter: _.times(20, function(n) {
       return {
         ChannelId: n,
         TwitterAccount: faker.random.alphaNumeric(),
