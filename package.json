@@ -11,7 +11,7 @@
     "eject": "react-scripts eject",
     "prettier": "prettier-eslint --write \"src/**/*.+(js|jsx)\"",
     "prettier-dry-run": "prettier-eslint \"src/**/*.+(js|jsx)\" -l debug",
-    "api": "json-server server/server.js --port 4000"
+    "api": "json-server server/server.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -22,6 +22,7 @@
     "style-loader": "^0.20.1"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
     "axios": "^0.17.1",
     "json-server": "^0.12.1",
     "react": "^16.2.0",

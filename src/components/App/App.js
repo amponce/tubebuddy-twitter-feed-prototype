@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import axios from "axios";
 import shortid from "shortid";
 import style from "./App.css";
+const port = process.env.PORT || 3000;
+
+const command = `json-server --watch db.json --port ${port}`
 
 class App extends Component {
   constructor() {
@@ -10,9 +13,9 @@ class App extends Component {
       tweets: []
     };
   }
-
+  
   componentDidMount() {
-    axios.get(`https://tubebuddy-notify.herokuapp.com:4000/Twitter`).then(res => {
+    axios.get(command).then(res => {
       const tweets = res.data;
       this.setState({ tweets });
     });
