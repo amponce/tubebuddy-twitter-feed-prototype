@@ -41,7 +41,7 @@ class App extends Component {
                   </div>
                   <p class="username">{tweet.Name}</p>
                   <span class="title">@{tweet.Handle}</span> retweeted <span class="title">@andrew</span>
-                   <br />{tweet.Text} 
+                   <br /><span class="text">{tweet.Text}</span>
                   <div class="actions">
                     <div class="icon-mail-reply action" />
                     <div class="icon-retweet action" />
