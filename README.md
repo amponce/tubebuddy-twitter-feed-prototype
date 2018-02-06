@@ -38,8 +38,8 @@ A Demo can currently be viewed on [Heroku](https://tubebuddy-notify.herokuapp.co
 
 
 1. `npm run api` The JSON Server is configured to run locally on port:3004 in package.json 
-2. In new terminal window `npm start` the app loads data from http://localhost:3004/Twitter
-3. The data is configured to use faker.js and attributes can be modified inside of server/server.js
+2. In new terminal window `npm start` (the will load with data from  http://localhost:3004/Twitter)
+3. The json data is configured using [Faker.js](https://github.com/marak/Faker.js/) and attributes can be modified inside of `server/server.js`
 
 #### The Easy Way (Optional)
 
