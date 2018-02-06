@@ -142,6 +142,11 @@ body {
     transition-timing-function: ease;
 }
 
+.profile .hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .feed {
     display: flex;
     flex-direction: column;
@@ -186,8 +191,6 @@ body {
 .text {
     font-size: 1.0em;
     font-family: 'Open Sans', sans-serif;
-
-    
 }
 
 .actions {

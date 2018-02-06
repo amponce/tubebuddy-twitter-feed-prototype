@@ -10,7 +10,7 @@ class App extends Component {
       tweets: []
     };
   }
-//https://tubebuddy-json-api.herokuapp.com/twitter
+  //http://localhost:3000/Twitter
   componentDidMount() {
     axios.get(`https://tubebuddy-json-api.herokuapp.com/twitter`).then(res => {
       const tweets = res.data;
@@ -29,11 +29,10 @@ class App extends Component {
           {this.state.tweets.map(tweet => (
             <li key={shortid.generate()}>
               <div class="profile">
-                <a href={`http://twitter.com?${tweet.Handle}` }><img src={tweet.ThumbnailUrl} alt="profile" />
+                <img src={tweet.ThumbnailUrl} alt="profile" />
                 <div class="hover">
-                  <div class="icon-twitter" />
+                <a href={`http://twitter.com?${tweet.Handle}` }><div class="icon-twitter" />  </a>
                 </div>
-                </a>
               </div>
               <div class="feed">
                 <div class="content">
