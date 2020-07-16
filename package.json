@@ -18,7 +18,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.9",
     "faker": "^4.1.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "style-loader": "^0.20.1"
   },
   "dependencies": {
